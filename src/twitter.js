@@ -14,10 +14,10 @@ app.get('/tweets', function(req, res) {
     function getData() {
        return new Promise(function (resolve, reject) {
          const options = {
-           url: 'https://api.twitter.com/1.1/followers/ids.json?screen_name=viren140290',
+           url: 'https://api.twitter.com/1.1/followers/ids.json?xxx',
            headers: {
              'Content-Type': 'application/json',
-             'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAAPA19QAAAAAAv78Iki4ZmcTSHYoQ0vJQxFw%2FmH8%3DgPJwKWLmY5qDkeooaT3yNPepbdTkDpAJZ3mJiMKkw9Jn6K63wo'
+             'Authorization': 'xxx'
            }
          };
 
