@@ -35,9 +35,12 @@
   },
   "homepage": "https://github.com/pradel/node-instagram#readme",
   "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
     "lodash": "^4.17.11",
     "node-fetch": "^2.3.0",
-    "query-string": "^6.2.0"
+    "query-string": "^6.2.0",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "@types/jest": "23.3.13",

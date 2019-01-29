@@ -3,8 +3,9 @@ const Instagram = require('../../lib').default;
 
 // Create a new instance.
 const instagram = new Instagram({
-  clientId: 'your-client-id',
-  clientSecret: 'your-client-secret',
+  clientId: '0ba66da997c944e58c5caaa5800a9425',
+  clientSecret: 'ff987f403ac0425385f195f39ddf7cef',
+  accessToken: 'bf246f7439944d69be78c07369877a7e'
 });
 
 const redirectUri = 'http://localhost:3000/auth/instagram/callback';
